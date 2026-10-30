@@ -1,0 +1,129 @@
+{
+  "S101": {
+    "student_id": "S101",
+    "name": "Rohan Sharma",
+    "programme": "PGDM (Big Data Analytics)",
+    "persistent_facts": {
+      "specialization_track": "Generative AI and Agentic Systems",
+      "preferred_career_role": "Agentic AI Architect / LLM Engineer",
+      "preferred_contact_method": "Email (rohan.sharma@apex.edu)",
+      "target_elective": "BDA504: Cloud Computing & MLOps"
+    },
+    "rejected_memories": [
+      {
+        "content": "Student mentioned feeling tired after morning lecture",
+        "reason": "Temporary physical/emotional state - not relevant for long-term support"
+      },
+      {
+        "content": "Student provided temporary login OTP: 593812",
+        "reason": "Sensitive credential / security token - strictly prohibited from persistent storage"
+      },
+      {
+        "content": "My portal password is Pass#[REDACTED_SECRET] and my one time password OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-29T13:18:16.127997+00:00"
+      },
+      {
+        "content": "My portal password is Pass#[REDACTED_SECRET] and my one time password OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-29T13:18:49.650346+00:00"
+      },
+      {
+        "content": "I am feeling very tired today after my morning exam.",
+        "reason": "Temporary emotional state, greeting, or ephemeral detail. Excluded from long-term memory.",
+        "timestamp": "2026-10-29T13:19:28.413790+00:00"
+      },
+      {
+        "content": "My portal password is Pass#[REDACTED_SECRET] and my one time password OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-29T13:19:28.415740+00:00"
+      },
+      {
+        "content": "I am feeling very tired today after my morning exam.",
+        "reason": "Temporary emotional state, greeting, or ephemeral detail. Excluded from long-term memory.",
+        "timestamp": "2026-10-29T13:21:56.663737+00:00"
+      },
+      {
+        "content": "My portal password is Pass#[REDACTED_SECRET] and my one time password OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-29T13:21:56.667494+00:00"
+      },
+      {
+        "content": "My password is Pass123 and OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-29T13:41:46.522424+00:00"
+      },
+      {
+        "content": "I am feeling very tired today after my morning exam.",
+        "reason": "Temporary emotional state, greeting, or ephemeral detail. Excluded from long-term memory.",
+        "timestamp": "2026-10-30T09:37:26.829183+00:00"
+      },
+      {
+        "content": "My portal password is Pass#[REDACTED_SECRET] and my one time password OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-30T09:37:26.832238+00:00"
+      },
+      {
+        "content": "I am feeling very tired today after my morning exam.",
+        "reason": "Temporary emotional state, greeting, or ephemeral detail. Excluded from long-term memory.",
+        "timestamp": "2026-10-30T09:54:58.058261+00:00"
+      },
+      {
+        "content": "My portal password is Pass#[REDACTED_SECRET] and my one time password OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-30T09:54:58.062447+00:00"
+      },
+      {
+        "content": "My password is Pass123 and OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-30T10:25:54.341366+00:00"
+      },
+      {
+        "content": "I am feeling very tired today after my morning exam.",
+        "reason": "Temporary emotional state, greeting, or ephemeral detail. Excluded from long-term memory.",
+        "timestamp": "2026-10-30T10:35:32.066496+00:00"
+      },
+      {
+        "content": "My portal password is Pass#[REDACTED_SECRET] and my one time password OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-30T10:35:32.072205+00:00"
+      }
+    ],
+    "last_session_timestamp": "2025-10-15T10:30:00Z"
+  },
+  "S102": {
+    "student_id": "S102",
+    "name": "Priya Patel",
+    "programme": "PGDM (Artificial Intelligence & Data Science)",
+    "persistent_facts": {
+      "specialization_track": "Deep Reinforcement Learning & Autonomous Agents",
+      "preferred_career_role": "AI Research Scientist",
+      "preferred_contact_method": "Portal Notifications"
+    },
+    "rejected_memories": [],
+    "last_session_timestamp": "2025-10-18T14:15:00Z"
+  },
+  "S103": {
+    "student_id": "S103",
+    "name": "Ananya Iyer",
+    "programme": "PGDM (Big Data Analytics)",
+    "persistent_facts": {
+      "specialization_track": "Fintech & Quantitative Analytics",
+      "preferred_career_role": "Quantitative Risk Analyst",
+      "preferred_contact_method": "Email (ananya.iyer@apex.edu)"
+    },
+    "rejected_memories": [
+      {
+        "content": "My password is Pass123 and OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-30T10:09:44.650940+00:00"
+      },
+      {
+        "content": "My password is Pass123 and OTP is [REDACTED_SECRET]",
+        "reason": "Contains sensitive credential (OTP / Verification Code). Strictly blocked from persistent memory.",
+        "timestamp": "2026-10-30T10:18:38.715966+00:00"
+      }
+    ],
+    "last_session_timestamp": "2025-10-20T09:00:00Z"
+  }
+}

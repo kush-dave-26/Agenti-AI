@@ -1,0 +1,226 @@
+{
+  "students": {
+    "S101": {
+      "student_id": "S101",
+      "name": "Rohan Sharma",
+      "email": "rohan.sharma@apex.edu",
+      "programme": "PGDM (Big Data Analytics)",
+      "batch": "2025-27",
+      "current_term": "Term 2",
+      "cgpa": 8.72,
+      "attendance_percentage": 88.5,
+      "enrolled_courses": [
+        "BDA501: Advanced Agentic AI",
+        "BDA502: Distributed Big Data Systems",
+        "BDA503: Machine Learning Engineering",
+        "AI602: Natural Language Processing & LLMs"
+      ],
+      "academic_advisor": "Dr. Arvind Swaminathan",
+      "fee_details": {
+        "total_fee_due": 300000,
+        "amount_paid": 250000,
+        "pending_balance": 50000,
+        "due_date": "2025-12-15",
+        "payment_status": "Partial Paid",
+        "last_payment_date": "2025-08-05",
+        "last_transaction_id": "TXN_7849120"
+      },
+      "scholarship_details": {
+        "scholarship_name": "Category B - Dean's Merit Scholarship (25% Tuition Waiver)",
+        "status": "Active & Approved",
+        "awarded_amount": 75000,
+        "disbursed_amount": 37500,
+        "next_disbursement_date": "2026-02-10",
+        "bank_account_verified": true,
+        "bank_masked_account": "XXXX-XXXX-4819"
+      }
+    },
+    "S102": {
+      "student_id": "S102",
+      "name": "Priya Patel",
+      "email": "priya.patel@apex.edu",
+      "programme": "PGDM (Artificial Intelligence & Data Science)",
+      "batch": "2025-27",
+      "current_term": "Term 2",
+      "cgpa": 9.35,
+      "attendance_percentage": 94.0,
+      "enrolled_courses": [
+        "AI601: Deep Reinforcement Learning",
+        "AI602: Natural Language Processing & LLMs",
+        "AI603: Computer Vision & GenAI",
+        "AI604: AI Ethics and Governance"
+      ],
+      "academic_advisor": "Prof. Meera Sen",
+      "fee_details": {
+        "total_fee_due": 300000,
+        "amount_paid": 300000,
+        "pending_balance": 0,
+        "due_date": "2025-12-15",
+        "payment_status": "Fully Paid",
+        "last_payment_date": "2025-12-10",
+        "last_transaction_id": "TXN_9921402"
+      },
+      "scholarship_details": {
+        "scholarship_name": "Category A - President's Excellence Scholarship (50% Tuition Waiver)",
+        "status": "Active & Approved",
+        "awarded_amount": 150000,
+        "disbursed_amount": 75000,
+        "next_disbursement_date": "2026-02-10",
+        "bank_account_verified": true,
+        "bank_masked_account": "XXXX-XXXX-9102"
+      }
+    },
+    "S103": {
+      "student_id": "S103",
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@apex.edu",
+      "programme": "PGDM (Big Data Analytics)",
+      "batch": "2025-27",
+      "current_term": "Term 2",
+      "cgpa": 7.4,
+      "attendance_percentage": 81.2,
+      "enrolled_courses": [
+        "BDA501: Advanced Agentic AI",
+        "BDA502: Distributed Big Data Systems",
+        "BDA505: Financial Analytics",
+        "BDA506: Marketing Analytics"
+      ],
+      "academic_advisor": "Dr. K. R. Raman",
+      "fee_details": {
+        "total_fee_due": 300000,
+        "amount_paid": 150000,
+        "pending_balance": 150000,
+        "due_date": "2025-12-15",
+        "payment_status": "Overdue Pending",
+        "last_payment_date": "2025-08-08",
+        "last_transaction_id": "TXN_5120349"
+      },
+      "scholarship_details": {
+        "scholarship_name": "None",
+        "status": "Not Eligible (CGPA < 8.50)",
+        "awarded_amount": 0,
+        "disbursed_amount": 0,
+        "next_disbursement_date": "N/A",
+        "bank_account_verified": false,
+        "bank_masked_account": "None"
+      }
+    }
+  },
+  "support_tickets": [],
+  "pending_approvals": [
+    {
+      "request_id": "APPR-50B953",
+      "student_id": "S101",
+      "student_name": "Rohan Sharma",
+      "action_name": "request_course_change",
+      "title": "Elective Course Change Request",
+      "parameters": {
+        "student_id": "S101",
+        "current_course": "BDA504: Cloud Computing & MLOps",
+        "requested_course": "AI602: Natural Language Processing & LLMs",
+        "reason": "Aligning coursework with AI specialization and research career goal."
+      },
+      "reason": "Aligning coursework with AI specialization and research career goal.",
+      "status": "APPROVED",
+      "created_at": "2026-10-29T13:18:49.666749+00:00",
+      "resolved_at": "2026-10-29T13:19:50.733707+00:00",
+      "resolver": "Faculty Advisor / Admin",
+      "resolver_notes": ""
+    },
+    {
+      "request_id": "APPR-C5DEB3",
+      "student_id": "S101",
+      "student_name": "Rohan Sharma",
+      "action_name": "request_course_change",
+      "title": "Elective Course Change Request",
+      "parameters": {
+        "student_id": "S101",
+        "current_course": "BDA504: Cloud Computing & MLOps",
+        "requested_course": "AI602: Natural Language Processing & LLMs",
+        "reason": "Aligning coursework with AI specialization and research career goal."
+      },
+      "reason": "Aligning coursework with AI specialization and research career goal.",
+      "status": "REJECTED",
+      "created_at": "2026-10-29T13:19:28.430771+00:00",
+      "resolved_at": "2026-10-29T13:20:00.654887+00:00",
+      "resolver": "Faculty Advisor / Admin",
+      "resolver_notes": "Course is full"
+    },
+    {
+      "request_id": "APPR-3A81A2",
+      "student_id": "S101",
+      "student_name": "Rohan Sharma",
+      "action_name": "request_course_change",
+      "title": "Elective Course Change Request",
+      "parameters": {
+        "student_id": "S101",
+        "current_course": "AI602: Natural Language Processing & LLMs",
+        "requested_course": "AI602: Natural Language Processing & LLMs",
+        "reason": "Aligning coursework with AI specialization and research career goal."
+      },
+      "reason": "Aligning coursework with AI specialization and research career goal.",
+      "status": "PENDING",
+      "created_at": "2026-10-29T13:21:56.685095+00:00",
+      "resolved_at": null,
+      "resolver": null,
+      "resolver_notes": null
+    },
+    {
+      "request_id": "APPR-19EB12",
+      "student_id": "S101",
+      "student_name": "Rohan Sharma",
+      "action_name": "request_course_change",
+      "title": "Elective Course Change Request",
+      "parameters": {
+        "student_id": "S101",
+        "current_course": "AI602: Natural Language Processing & LLMs",
+        "requested_course": "AI602: Natural Language Processing & LLMs",
+        "reason": "Aligning coursework with AI specialization and research career goal."
+      },
+      "reason": "Aligning coursework with AI specialization and research career goal.",
+      "status": "PENDING",
+      "created_at": "2026-10-30T09:37:26.845960+00:00",
+      "resolved_at": null,
+      "resolver": null,
+      "resolver_notes": null
+    },
+    {
+      "request_id": "APPR-80D3B9",
+      "student_id": "S101",
+      "student_name": "Rohan Sharma",
+      "action_name": "request_course_change",
+      "title": "Elective Course Change Request",
+      "parameters": {
+        "student_id": "S101",
+        "current_course": "AI602: Natural Language Processing & LLMs",
+        "requested_course": "AI602: Natural Language Processing & LLMs",
+        "reason": "Aligning coursework with AI specialization and research career goal."
+      },
+      "reason": "Aligning coursework with AI specialization and research career goal.",
+      "status": "PENDING",
+      "created_at": "2026-10-30T09:54:58.075973+00:00",
+      "resolved_at": null,
+      "resolver": null,
+      "resolver_notes": null
+    },
+    {
+      "request_id": "APPR-0A8839",
+      "student_id": "S101",
+      "student_name": "Rohan Sharma",
+      "action_name": "request_course_change",
+      "title": "Elective Course Change Request",
+      "parameters": {
+        "student_id": "S101",
+        "current_course": "AI602: Natural Language Processing & LLMs",
+        "requested_course": "AI602: Natural Language Processing & LLMs",
+        "reason": "Aligning coursework with AI specialization and research career goal."
+      },
+      "reason": "Aligning coursework with AI specialization and research career goal.",
+      "status": "PENDING",
+      "created_at": "2026-10-30T10:35:32.113330+00:00",
+      "resolved_at": null,
+      "resolver": null,
+      "resolver_notes": null
+    }
+  ]
+}

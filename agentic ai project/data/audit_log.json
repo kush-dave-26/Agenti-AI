@@ -1,0 +1,666 @@
+[
+  {
+    "audit_id": "AUD-INIT-001",
+    "timestamp": "2025-10-25T10:00:00Z",
+    "session_id": "sess_sample_init",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "VIEW_OWN_FEE_STATUS",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Authorized access to personal fee statement."
+  },
+  {
+    "audit_id": "AUD-2C148609",
+    "timestamp": "2026-10-29T13:18:16.104793+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-516811E2",
+    "timestamp": "2026-10-29T13:18:16.119229+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-CD13BEA1",
+    "timestamp": "2026-10-29T13:18:16.138574+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Unknown",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "BLOCKED_UNAUTHORIZED",
+    "approval_status": "N/A",
+    "result": "FORBIDDEN",
+    "details": "ACCESS DENIED (PRIVACY VIOLATION): Student 'S101' is not authorized to access or modify private records of Student 'S102'. Application security policy strictly isolates student data."
+  },
+  {
+    "audit_id": "AUD-4A1BB814",
+    "timestamp": "2026-10-29T13:18:49.642404+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-34C08842",
+    "timestamp": "2026-10-29T13:18:49.656667+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Unknown",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "BLOCKED_UNAUTHORIZED",
+    "approval_status": "N/A",
+    "result": "FORBIDDEN",
+    "details": "ACCESS DENIED (PRIVACY VIOLATION): Student 'S101' is not authorized to access or modify private records of Student 'S102'. Application security policy strictly isolates student data."
+  },
+  {
+    "audit_id": "AUD-DA6BC302",
+    "timestamp": "2026-10-29T13:18:49.663392+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_STUDENT_RECORD",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Authorized access to academic profile."
+  },
+  {
+    "audit_id": "AUD-8180E4A6",
+    "timestamp": "2026-10-29T13:18:49.671417+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "request_course_change",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101",
+      "current_course": "BDA504: Cloud Computing & MLOps",
+      "requested_course": "AI602: Natural Language Processing & LLMs",
+      "reason": "Aligning coursework with AI specialization and research career goal."
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "PENDING",
+    "result": "AWAITING_HUMAN_APPROVAL",
+    "details": "Sensitive action 'Elective Course Change Request' initiated. Placed into pending queue [APPR-50B953]."
+  },
+  {
+    "audit_id": "AUD-57DECFDC",
+    "timestamp": "2026-10-29T13:19:28.408460+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-204855FE",
+    "timestamp": "2026-10-29T13:19:28.421248+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Unknown",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "BLOCKED_UNAUTHORIZED",
+    "approval_status": "N/A",
+    "result": "FORBIDDEN",
+    "details": "ACCESS DENIED (PRIVACY VIOLATION): Student 'S101' is not authorized to access or modify private records of Student 'S102'. Application security policy strictly isolates student data."
+  },
+  {
+    "audit_id": "AUD-CFA11C4E",
+    "timestamp": "2026-10-29T13:19:28.427643+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_STUDENT_RECORD",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Authorized access to academic profile."
+  },
+  {
+    "audit_id": "AUD-52BECE71",
+    "timestamp": "2026-10-29T13:19:28.435655+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "request_course_change",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101",
+      "current_course": "BDA504: Cloud Computing & MLOps",
+      "requested_course": "AI602: Natural Language Processing & LLMs",
+      "reason": "Aligning coursework with AI specialization and research career goal."
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "PENDING",
+    "result": "AWAITING_HUMAN_APPROVAL",
+    "details": "Sensitive action 'Elective Course Change Request' initiated. Placed into pending queue [APPR-C5DEB3]."
+  },
+  {
+    "audit_id": "AUD-B2D1D48F",
+    "timestamp": "2026-10-29T13:19:50.740903+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "request_course_change",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101",
+      "current_course": "BDA504: Cloud Computing & MLOps",
+      "requested_course": "AI602: Natural Language Processing & LLMs",
+      "reason": "Aligning coursework with AI specialization and research career goal."
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "APPROVED",
+    "result": "SUCCESS",
+    "details": "Human approval granted by Faculty Advisor / Admin. Modification executed: Course changed successfully: Swapped 'BDA504: Cloud Computing & MLOps' for 'AI602: Natural Language Processing & LLMs'."
+  },
+  {
+    "audit_id": "AUD-2FF01BCA",
+    "timestamp": "2026-10-29T13:20:00.664262+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "request_course_change",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101",
+      "current_course": "BDA504: Cloud Computing & MLOps",
+      "requested_course": "AI602: Natural Language Processing & LLMs",
+      "reason": "Aligning coursework with AI specialization and research career goal."
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "REJECTED",
+    "result": "ABORTED_BY_REJECTION",
+    "details": "Action 'request_course_change' was REJECTED by Faculty Advisor / Admin. Reason/Notes: Course is full. No changes were made to the student record."
+  },
+  {
+    "audit_id": "AUD-EF9242FE",
+    "timestamp": "2026-10-29T13:21:56.656429+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-A32AD384",
+    "timestamp": "2026-10-29T13:21:56.672702+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Unknown",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "BLOCKED_UNAUTHORIZED",
+    "approval_status": "N/A",
+    "result": "FORBIDDEN",
+    "details": "ACCESS DENIED (PRIVACY VIOLATION): Student 'S101' is not authorized to access or modify private records of Student 'S102'. Application security policy strictly isolates student data."
+  },
+  {
+    "audit_id": "AUD-AD50721E",
+    "timestamp": "2026-10-29T13:21:56.679373+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_STUDENT_RECORD",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Authorized access to academic profile."
+  },
+  {
+    "audit_id": "AUD-F0188BE0",
+    "timestamp": "2026-10-29T13:21:56.692226+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "request_course_change",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101",
+      "current_course": "AI602: Natural Language Processing & LLMs",
+      "requested_course": "AI602: Natural Language Processing & LLMs",
+      "reason": "Aligning coursework with AI specialization and research career goal."
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "PENDING",
+    "result": "AWAITING_HUMAN_APPROVAL",
+    "details": "Sensitive action 'Elective Course Change Request' initiated. Placed into pending queue [APPR-3A81A2]."
+  },
+  {
+    "audit_id": "AUD-173E8013",
+    "timestamp": "2026-10-29T13:40:50.604934+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-4BA1F97A",
+    "timestamp": "2026-10-29T13:41:03.061950+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Unknown",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "BLOCKED_UNAUTHORIZED",
+    "approval_status": "N/A",
+    "result": "FORBIDDEN",
+    "details": "ACCESS DENIED (PRIVACY VIOLATION): Student 'S101' is not authorized to access or modify private records of Student 'S102'. Application security policy strictly isolates student data."
+  },
+  {
+    "audit_id": "AUD-A38A25CF",
+    "timestamp": "2026-10-29T13:41:14.714117+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-7B9463EF",
+    "timestamp": "2026-10-30T09:04:55.206652+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-2DD907BE",
+    "timestamp": "2026-10-30T09:35:03.565214+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S102",
+    "actor_name": "Priya Patel",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 0."
+  },
+  {
+    "audit_id": "AUD-C34B30CF",
+    "timestamp": "2026-10-30T09:37:26.823922+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-E5D6394B",
+    "timestamp": "2026-10-30T09:37:26.837252+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Unknown",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "BLOCKED_UNAUTHORIZED",
+    "approval_status": "N/A",
+    "result": "FORBIDDEN",
+    "details": "ACCESS DENIED (PRIVACY VIOLATION): Student 'S101' is not authorized to access or modify private records of Student 'S102'. Application security policy strictly isolates student data."
+  },
+  {
+    "audit_id": "AUD-B5F48FF2",
+    "timestamp": "2026-10-30T09:37:26.842742+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_STUDENT_RECORD",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Authorized access to academic profile."
+  },
+  {
+    "audit_id": "AUD-20BFDB05",
+    "timestamp": "2026-10-30T09:37:26.848857+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "request_course_change",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101",
+      "current_course": "AI602: Natural Language Processing & LLMs",
+      "requested_course": "AI602: Natural Language Processing & LLMs",
+      "reason": "Aligning coursework with AI specialization and research career goal."
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "PENDING",
+    "result": "AWAITING_HUMAN_APPROVAL",
+    "details": "Sensitive action 'Elective Course Change Request' initiated. Placed into pending queue [APPR-19EB12]."
+  },
+  {
+    "audit_id": "AUD-226B03FD",
+    "timestamp": "2026-10-30T09:54:58.035866+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-96A944A8",
+    "timestamp": "2026-10-30T09:54:58.069562+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Unknown",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "BLOCKED_UNAUTHORIZED",
+    "approval_status": "N/A",
+    "result": "FORBIDDEN",
+    "details": "ACCESS DENIED (PRIVACY VIOLATION): Student 'S101' is not authorized to access or modify private records of Student 'S102'. Application security policy strictly isolates student data."
+  },
+  {
+    "audit_id": "AUD-44E55759",
+    "timestamp": "2026-10-30T09:54:58.073224+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_STUDENT_RECORD",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Authorized access to academic profile."
+  },
+  {
+    "audit_id": "AUD-8984D9BD",
+    "timestamp": "2026-10-30T09:54:58.077932+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "request_course_change",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101",
+      "current_course": "AI602: Natural Language Processing & LLMs",
+      "requested_course": "AI602: Natural Language Processing & LLMs",
+      "reason": "Aligning coursework with AI specialization and research career goal."
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "PENDING",
+    "result": "AWAITING_HUMAN_APPROVAL",
+    "details": "Sensitive action 'Elective Course Change Request' initiated. Placed into pending queue [APPR-80D3B9]."
+  },
+  {
+    "audit_id": "AUD-7F9B9D45",
+    "timestamp": "2026-10-30T10:09:03.475312+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S103",
+    "actor_name": "Ananya Iyer",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S103",
+    "parameters": {
+      "student_id": "S103"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 150000."
+  },
+  {
+    "audit_id": "AUD-E10EC1EB",
+    "timestamp": "2026-10-30T10:09:24.060051+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S103",
+    "actor_name": "Unknown",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "BLOCKED_UNAUTHORIZED",
+    "approval_status": "N/A",
+    "result": "FORBIDDEN",
+    "details": "ACCESS DENIED (PRIVACY VIOLATION): Student 'S103' is not authorized to access or modify private records of Student 'S102'. Application security policy strictly isolates student data."
+  },
+  {
+    "audit_id": "AUD-CD3D88E7",
+    "timestamp": "2026-10-30T10:18:18.305098+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S103",
+    "actor_name": "Ananya Iyer",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S103",
+    "parameters": {
+      "student_id": "S103"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 150000."
+  },
+  {
+    "audit_id": "AUD-1A06A599",
+    "timestamp": "2026-10-30T10:25:35.189078+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-5F168B45",
+    "timestamp": "2026-10-30T10:29:21.937637+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Unknown",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "BLOCKED_UNAUTHORIZED",
+    "approval_status": "N/A",
+    "result": "FORBIDDEN",
+    "details": "ACCESS DENIED (PRIVACY VIOLATION): Student 'S101' is not authorized to access or modify private records of Student 'S102'. Application security policy strictly isolates student data."
+  },
+  {
+    "audit_id": "AUD-558D32F9",
+    "timestamp": "2026-10-30T10:35:32.036866+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Viewed fee status: Pending balance INR 50000."
+  },
+  {
+    "audit_id": "AUD-449DCB15",
+    "timestamp": "2026-10-30T10:35:32.079368+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Unknown",
+    "action_type": "GET_FEE_STATUS",
+    "target_resource": "fee_statement:S102",
+    "parameters": {
+      "student_id": "S102"
+    },
+    "authorization_status": "BLOCKED_UNAUTHORIZED",
+    "approval_status": "N/A",
+    "result": "FORBIDDEN",
+    "details": "ACCESS DENIED (PRIVACY VIOLATION): Student 'S101' is not authorized to access or modify private records of Student 'S102'. Application security policy strictly isolates student data."
+  },
+  {
+    "audit_id": "AUD-4979361B",
+    "timestamp": "2026-10-30T10:35:32.104899+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "GET_STUDENT_RECORD",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101"
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "N/A",
+    "result": "SUCCESS",
+    "details": "Authorized access to academic profile."
+  },
+  {
+    "audit_id": "AUD-FF0FC199",
+    "timestamp": "2026-10-30T10:35:32.117238+00:00",
+    "session_id": "default_session",
+    "actor_student_id": "S101",
+    "actor_name": "Rohan Sharma",
+    "action_type": "request_course_change",
+    "target_resource": "student_record:S101",
+    "parameters": {
+      "student_id": "S101",
+      "current_course": "AI602: Natural Language Processing & LLMs",
+      "requested_course": "AI602: Natural Language Processing & LLMs",
+      "reason": "Aligning coursework with AI specialization and research career goal."
+    },
+    "authorization_status": "ALLOWED",
+    "approval_status": "PENDING",
+    "result": "AWAITING_HUMAN_APPROVAL",
+    "details": "Sensitive action 'Elective Course Change Request' initiated. Placed into pending queue [APPR-0A8839]."
+  }
+]
